@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "some tools that can be used on the local launch page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite dev --open",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDS3991/tools.git"
+  },
+  "keywords": [],
+  "author": "DHS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDS3991/tools/issues"
+  },
+  "homepage": "https://github.com/HDS3991/tools#readme",
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.5",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
